@@ -1,0 +1,39 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #202326;
+  color: #dddddd;
+}
+
+h1 {
+  font-size: 28px;
+  margin-left: 16px;
+  margin-bottom: 12px;;
+}
+
+h1 img {
+  display: inline-block;
+  position: absolute;
+  margin-left: 4px;
+  top: 25px;
+  width: 28px;
+  height: 28px;
+}
+
+nav ul {
+  padding-left: 18px;
+  margin-top: 0;
+}
+
+nav li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+nav h2 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
