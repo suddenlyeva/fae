@@ -11,7 +11,7 @@ html, body {
 
 h1 {
   font-size: 28px;
-  margin-left: 16px;
+  margin-left: 20px;
   margin-bottom: 12px;
   background-color: #202326;
   color: #dddddd;
@@ -21,7 +21,7 @@ h1 img {
   display: inline-block;
   position: absolute;
   margin-left: 4px;
-  top: 25px;
+  top: 28px;
   width: 28px;
   height: 28px;
 }
@@ -37,7 +37,7 @@ nav {
 }
 
 nav ul {
-  padding-left: 18px;
+  padding-left: 20px;
   margin-top: 0;
 }
 
@@ -55,9 +55,16 @@ nav h2 {
   font-size: 16px;
 }
 
+main h2 {
+  margin-top: 0;
+}
+
 main {
   display: inline-block;
-  padding-left: 324px;
+  padding-left: 328px;
+  padding-top: 28px;
+  padding-right: 28px;
+  padding-bottom: 28px;
 }
 
 pre {
