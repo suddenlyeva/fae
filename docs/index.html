@@ -6,11 +6,9 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <h1>Fae<img src="fae.png" /></h1>
-    </header>
 
     <nav>
+      <h1>Fae<img src="fae.png" /></h1>
       <ul>
         <li>
           <h2><a>Introduction</a></h2>
@@ -94,5 +92,44 @@
         </li>
       </ul>
     </nav>
+
+    <main>
+      <h2>Type Constructors</h2>
+      <p>All types in Fae can be created using the name of the type in between angle brackets. &lt;Example></Example></p>
+      <p>This is called a "Type Constructor".</p>
+      <p>When a type constructor is used, a new instance of the type is created with all values set to their defaults.</p>
+      <p>There are five basic types in Fae, and their example type constructors along with their default values are shown in this example:</p>
+      <code>
+        <pre>
+// Initializes a &lt;Boolean> as false.
+// Equivalent to let bool = false;
+
+let bool = &lt;Boolean>;
+
+
+// Initializes a &lt;Number> as 0.
+// Equivalent to let num = 0;
+
+let num = &lt;Number>;
+
+
+// Initializes an empty &lt;String>.
+// Equivalent to let str = "";
+
+let str = &lt;String>;
+
+
+// Initializes an empty &lt;Array>.
+// Equivalent to let arr = [];
+
+let arr = &lt;Array>;
+
+
+// Initializes an empty &lt;Object> with no properties.
+// Equivalent to let obj = {};
+
+let obj = &lt;Object>;</pre>
+      </code>
+    </main>
   </body>
 </html>

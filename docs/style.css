@@ -1,13 +1,20 @@
 * {
   font-family: 'Open Sans', sans-serif;
-  background-color: #202326;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #151718;
   color: #dddddd;
 }
 
 h1 {
   font-size: 28px;
   margin-left: 16px;
-  margin-bottom: 12px;;
+  margin-bottom: 12px;
+  background-color: #202326;
+  color: #dddddd;
 }
 
 h1 img {
@@ -17,6 +24,16 @@ h1 img {
   top: 25px;
   width: 28px;
   height: 28px;
+}
+
+nav {
+  position: absolute;
+  overflow-y: scroll;
+  display: inline-block;
+  height: 100vh;
+  width: 300px;
+  background-color: #202326;
+  color: #dddddd;
 }
 
 nav ul {
@@ -36,4 +53,17 @@ nav h2 {
   margin-top: 16px;
   margin-bottom: 8px;
   font-size: 16px;
+}
+
+main {
+  display: inline-block;
+  padding-left: 324px;
+}
+
+pre {
+  background-color: #303437;
+  border: 2px solid #666666;
+  border-radius: 4px;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
 }
